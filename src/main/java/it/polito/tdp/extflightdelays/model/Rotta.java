@@ -3,7 +3,7 @@ package it.polito.tdp.extflightdelays.model;
 public class Rotta {
 	private Airport a1;
 	private Airport a2;
-	private int nVoli;
+	private int nVoli; //la rotta da a1 ad a2 può avere un peso diverso da quella a2 a1 
 	
 	public Rotta(Airport a1, Airport a2, int nVoli) {
 		super();
